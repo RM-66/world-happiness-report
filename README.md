@@ -26,9 +26,26 @@ We are hoping to find out what makes people happy and the happiness level among 
 * Perception of corruption - National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not” )
 
 2. Visualizations based on different factors
-* 
-4. Visualizations based on geographics
-
+* five factors: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/A%20broad%20look%20of%20how%20score%20is%20related%20to%20these%20five%20factors%20.png)
+* correlation heatmap:
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/correlation%20heatmap.png)
+* score distribution: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20distribution.png)
+* score vs GDP: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20GDP.png)
+* score vs corruption: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20corruption.jpg)
+* score vs social support: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20social%20support.png)
+* score vs life expectancy: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20life%20expectancy.jpg)
+* score vs freedom to make choices:![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20freedom%20to%20make%20life%20choice.png)
+3. Visualizations based on geographics
+* score map: 
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20map.png)
+* Top 10 rank countries map:
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/Top%2010%20countries.png)
 
 ### Required Software
 
