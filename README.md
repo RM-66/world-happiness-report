@@ -10,7 +10,7 @@ Everyone contributes to this project.
 
 ## Project Proposal Abstract
 
-This is the space for you to add a description for your project.
+We are hoping to find out what makes people happy and the happiness level among different groups of people as people pay more attention to their happiness and quality of life. Therefore, in our project, we use the World Happiness Report datasets to research the happiness level across countries and time. We use the ‘score’ index to observe how different factors are linearly related to ‘score’. In this prototype, we selectively choose data from 2019 as a reference to explore.
 
 ## Getting Started
 
