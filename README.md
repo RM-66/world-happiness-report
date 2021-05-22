@@ -6,7 +6,7 @@ Cherry Pan, Hongying Wu, Ruimin Zhang, Robert Zheng
 
 ### Contribution Statements
 
-Everyone contributes to this project.
+Everyone contributes to this proposal.
 
 ## Project Proposal Abstract
 
@@ -53,6 +53,7 @@ Strong correlation between score and life expectancy. In general, countries with
 
 * score vs freedom to make choices:![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20freedom%20to%20make%20life%20choice.png)
 Somewhat strong correlation between score and freedom with many outliers.
+The relationship between score and freedom to make life choices has a positive relationship. However, the variance is large since we can see there are some data points floating around. Based on this graph, we can conclude that the freedom to make life choices is higher when the score of happiness is higher. Some country do not fall into this conclusion, but this could be caused by the missing values or the underrepresentative data.
 
 **3. Visualizations based on geographics**
 * score map: 
