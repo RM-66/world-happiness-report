@@ -14,9 +14,6 @@ We are hoping to find out what makes people happy and the happiness level among 
 
 ## Getting Started
 
-**This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative.**
-
-**Think about how the narrative structure draws readers into the story you are telling and how the visualizations interact with the text (and with each other). The narrative should help ensure that the page as a whole is greater than just the sum of it's parts. When designing your page, decide on particular layouts that enhance the reader's experience and understanding of the topic.**
 **1. Features Analyzed:**
 * GDP per capita - a measure of a country’s economic output that accounts for its number of people.
 * Healthy Life Expectancy - Healthy life expectancies at birth based on the data extracted from the World Health Organisation (WHO) data repository
