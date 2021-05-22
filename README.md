@@ -58,6 +58,7 @@ The relationship between score and freedom to make life choices has a positive r
 **3. Visualizations based on geographics**
 * score map: 
 ![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20map.png)
+This is the map that shows how the scores different from each other for all the countries. The darker blue indicates a higher happiness score. We can see that North America, South America, Australia, and some parts of Europe have very high happiness scores. Some east Asia countries and some Africa counrties have relatively low happiness scores.
 
 * Top 10 rank countries map:
 ![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/Top%2010%20countries.png)
