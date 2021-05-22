@@ -2,11 +2,11 @@
 
 ## Team Members
 
-Place your team member names here.
+Cherry Pan, Hongying Wu, Ruimin Zhang, Robert Zheng
 
 ### Contribution Statements
 
-Add individual contribution statements here.
+Everyone contributes to this project.
 
 ## Project Proposal Abstract
 
