@@ -23,8 +23,8 @@ We are hoping to find out what makes people happy and the happiness level among 
 * Perception of corruption - National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not” )
 
 **2. Visualizations based on different factors**
-* 
-<img src="https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/correlation%20heatmap.png" alt="correlation heatmap" width="200" height="200">
+* correlation heatmap
+![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/correlation%20heatmap.png)
 The correlation between six variables and happiness scores. We spot that GDPper capita, social support, and healthy life expectancy have stronger impacts over our scores than other variables. 
 
 * five factors: 
