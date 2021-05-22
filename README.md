@@ -10,13 +10,25 @@ Everyone contributes to this project.
 
 ## Project Proposal Abstract
 
-We are hoping to find out what makes people happy and the happiness level among different groups of people as people pay more attention to their happiness and quality of life. Therefore, in our project, we use the World Happiness Report datasets to research the happiness level across countries and time. We use the ‘score’ index to observe how different factors are linearly related to ‘score’. In this prototype, we selectively choose data from 2019 as a reference to explore.
+We are hoping to find out what makes people happy and the happiness level among different groups of people as people pay more attention to their happiness and quality of life. Therefore, in our project, we use the [World Happiness Report](https://www.kaggle.com/PromptCloudHQ/world-happiness-report-2019) datasets to research the happiness level across countries and time. We use the _‘score’_ index to observe how different factors are linearly related to _‘score’_. In this proposal, we selectively choose data from 2019 as a reference to explore.
 
 ## Getting Started
 
-This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative.
+**This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative.**
 
-Think about how the narrative structure draws readers into the story you are telling and how the visualizations interact with the text (and with each other). The narrative should help ensure that the page as a whole is greater than just the sum of it's parts. When designing your page, decide on particular layouts that enhance the reader's experience and understanding of the topic.
+**Think about how the narrative structure draws readers into the story you are telling and how the visualizations interact with the text (and with each other). The narrative should help ensure that the page as a whole is greater than just the sum of it's parts. When designing your page, decide on particular layouts that enhance the reader's experience and understanding of the topic.**
+1. Features Analyzed: 
+* GDP per capita - a measure of a country’s economic output that accounts for its number of people.
+* Healthy Life Expectancy - Healthy life expectancies at birth based on the data extracted from the World Health Organisation (WHO) data repository
+* Social support - Defined as having someone to count on in times of trouble (ranked from 0 to 1)
+* Freedom to make life choices - Defined as the national average of responses to the Gall-WorldPoll question (“Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”)
+* Generosity - National average of responses to the question - “Have you donated money to a charity in the past month?”
+* Perception of corruption - National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not” )
+
+2. Visualizations based on different factors
+* 
+4. Visualizations based on geographics
+
 
 ### Required Software
 
