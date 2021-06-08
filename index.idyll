@@ -144,10 +144,13 @@ After learning about all these insights, have you ever wondered if any countries
 [Scroller]
 ### Countries with monotonic score increase
 
-We obtained the world happiness report from 2015 to 2020. To better compare all countries’ scores, we first filtered the unnecessary columns and merged all data frames by intersection. At the end of this merging process, we obtained the following:
+We obtained the world happiness report from 2015 to 2020. To better compare all countries’ scores, we first filtered the unnecessary columns and merged all data frames by intersection. After a short investigation, we found that the data set each year might contain different countries, and some countries might not exist on the data set in the next year. For example, Oman, Laos, Syria appeared in the 2015 report but not in the 2016 report. After intersecting all data frames, we have countries with consistent score records. To obtain the ones with monotonic score increase, we looped through all the columns containing scores and checked if the entries in the previous column were less than or equal to the entries in the current column. The result is the following table:
 
+[var name:"myVal"/]
+[Graphic]
+    [img src:`"static/images/MonotonicCountry/" + myVal + ".png"` /]
+[/Graphic]
 
-After a short investigation, we found that the data set each year might contain different countries, and some countries might not exist on the data set in the next year. For example, Oman, Laos, Syria appeared in the 2015 report but not in the 2016 report. After intersecting all data frames, we have countries with consistent score records. To obtain the ones with monotonic score increase, we looped through all the columns containing scores and checked if the entries in the previous column were less than or equal to the entries in the current column. The result is the following table:
 
 These countries shown in the table have the monotonic increasing score over the years.
 
