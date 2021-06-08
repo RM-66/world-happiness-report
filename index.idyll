@@ -4,12 +4,11 @@
   fullWidth:true
   title:"World Happiness Report Analysis"
   author:"Ruimin Zhang, Hongying Wu, Robert Zheng, Tianyu Pan"
-  authorLink:"https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
   date:"Jun 7, 2021"
   background:"#222222"
   color:"#ffffff"
-  theme:"centered"'
-   /]
+  theme:"centered"
+  /]
 
 
 [Scroller]
@@ -37,8 +36,9 @@ different countries over years and how the happiness score is affected by some
 important factors such as GDP per capita and healthy life expectancy. We used
 the World Happiness Report datasets to research the happiness level across
 countries and time. We used the ‘score’ index to observe how different factors
-are linearly related to the ‘score’. ...
+are linearly related to the ‘score’.
 [/Scroller]
+
 
 [Scroller]
 ### World Score Distribution
@@ -59,7 +59,6 @@ After looking at the world score distribution, there are some questions that we
 might want to ask: what are some factors that could possibly affect the
 happiness score, and by how much?
 [/Scroller]
-
 
 [Scroller]
 ### Different Factors vs. Scores & Correlation Heat Map
@@ -89,8 +88,6 @@ score through the map.
 
 Below is an interactive plot that describes the happiness score in each country
 from 2015 to 2021
-[TableauEmbed link:"https://public.tableau.com/views/interactivemapoveryears/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"600"/]
-[br /]
 
 In this interactive plot, we use a color scale to differentiate the happiness
 score rated from 1 to 10. Even though most scores are between 2 to 8, we try to
@@ -145,10 +142,8 @@ happiness scores for 2022. Some of the predicted scores are presented in the
 table above. And the accuracy rate is about 84.9%.
 [/Scroller]
 
-[Scroller]
 # Data Sources
 
-[https://www.kaggle.com/mathurinache/world-happiness-report)
+[World Happiness Dataset: 2015-2020](https://www.kaggle.com/mathurinache/world-happiness-report)
 [br /]
-[https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021)
-[/Scroller]
+[World Happiness Dataset: 2021](https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021)
