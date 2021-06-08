@@ -78,7 +78,7 @@ We looked into some important factors, which are logged Economy (GDP per Capita)
 [/Graphic]
 
 [hr /]
-This is the heat map of all the correlations for each year, respectively. You can manually choose the year from the upper left corner. The darker the red is, the stronger the correlation will be. Blue section indicates the negative correlation. From the Heat map here, we can see that GDP, social support, and Heath indeed have the strongest correlations with happiness score. 
+This is the heat map of all the correlations for each year, respectively. You can manually choose the year from the upper left corner. The darker the red is, the stronger the correlation will be. Blue section indicates the negative correlation. From the Heat map here, we can see that GDP, social support, and Heath indeed have the strongest correlations with happiness score.
 
 
 Now we look into the different regions and show the differences of happiness scores through the map.
@@ -127,7 +127,7 @@ These countries shown in the table have the monotonic increasing score over the 
 ## ML Prediction for 2022
 
 We are curious about what the happiness score looks like in 2022, thus we decided to use the ML model to predict the possible outcome of 2022. We used the MLPRegressor model in sklearn to predict the potential happiness scores for 2022, and the data from 2015 to 2021 served as the training data. Some of the predicted scores are presented in the table above, and the accuracy rate is about 84.9%.
-
+![example](./static/images/prediction.png)
 
 [br/]
 ## Conclusion
