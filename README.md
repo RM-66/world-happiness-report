@@ -2,11 +2,11 @@
 
 ## Team Members
 
-Cherry Pan, Hongying Wu, Ruimin Zhang, Robert Zheng
+Tianyu Pan, Hongying Wu, Ruimin Zhang, Robert Zheng
 
 ### Contribution Statements
 
-Cherry Pan creates the line plots for six factors, and writes the most paragraphs in the Report;
+Tianyu Pan creates the line plots for six factors, and writes the most paragraphs in the Report;
 
 Hongying Wu creates the interactive world map, and edits the github pages;
 
