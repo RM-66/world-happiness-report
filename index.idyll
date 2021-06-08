@@ -1,67 +1,72 @@
-[meta title:"CSE412 Final Project: World Happiness Report" description:"a closer view of data in 2015-2021." /]
+[meta title:"CSE412 Final Project: World Happiness Report" description:"a closer view of data in 2015-2020." /]
 
 [Header
   fullWidth:true
   title:"World Happiness Report Analysis"
   author:"Ruimin Zhang, Hongying Wu, Robert Zheng, Tianyu Pan"
-  date:"Jun 7, 2021"
+  authorLink:"https://courses.cs.washington.edu/courses/cse412/21sp/fp.html"
+  date:"Jun 8, 2021"
   background:"#222222"
   color:"#ffffff"
   theme:"centered"
-  /]
+   /]
 
+![example](./static/images/banner.jpg)
+
+### Introduction
+
+Why is happiness important? Why should we care about happiness scores in this fast-paced world? What might be some key indicator of happiness? What makes us happy as an individual? How does Covid-19 affect the happiness score?
+
+Indeed, these questions are difficult to answer. Happiness is a subjective measure and can be hard to categorize. But undoubtedly, these questions serve as the baseline for other areas such as mental health and national growth, and are crucial to everyone’s daily life. First, we want to understand why happiness is important and why we should care about it. According to the resolution adopted by the UN General Assembly in 2011 titled “Happiness: towards a holistic approach to development”, the resolution states that “the pursuit of happiness is a fundamental human goal”; moreover, happiness is “a universal goal and aspiration embodies the spirit of Millennium Development Goal''. Many studies indicate that happiness not only relates to how we feel, but also “links to better decision-making and improved creativity”. Scientists point out that happiness could be the key to success. 
+
+After learning the importance of happiness, now let’s delve into our project. In this project, we aim to find out how the happiness score varies across different countries over years and how the happiness score is affected by some important factors such as GDP per capita and healthy life expectancy. We used the World Happiness Report datasets to research the happiness level across countries and time. We used the ‘score’ index to observe how different factors are linearly related to the ‘score’.
 
 [Scroller]
-## Introduction
-Why is happiness important? Why should we care about happiness scores in this
-fast-paced world? What might be some key indicator of happiness? What makes us
-happy as an individual?
+[Step]    
+### Score Distribution
+[hr /]
 
-Indeed, these questions are difficult to answer. Happiness is a subjective
-measure and can be hard to categorize. But undoubtedly, these questions serve as
-the baseline for other areas such as mental health and national growth, and are
-crucial to everyone’s daily life. First, we want to understand why happiness is
-important and why we should care about it. According to the resolution adopted
-by the UN General Assembly in 2011 titled “Happiness: towards a holistic
-approach to development”, the resolution states that “the pursuit of happiness
-is a fundamental human goal”; moreover, happiness is “a universal goal and
-aspiration embodies the spirit of Millennium Development Goal''. Many studies
-indicate that happiness not only relates to how we feel, but also “links to
-better decision-making and improved creativity”. Scientists point out that
-happiness could be the key to success.
+[var name:"selectVal" value:"2015" /]
+[Select value:selectVal options:`["2015", "2016", "2017", "2018", "2019","2020","2021"]`  /]
+[Graphic]
+    [img src:`"static/images/score_distribution/" + selectVal + ".jpg"` /]
+[/Graphic]
 
-After learning the importance of happiness, now let’s delve into our project.
-In this project, we aim to find out how the happiness score varies across
-different countries over years and how the happiness score is affected by some
-important factors such as GDP per capita and healthy life expectancy. We used
-the World Happiness Report datasets to research the happiness level across
-countries and time. We used the ‘score’ index to observe how different factors
-are linearly related to the ‘score’.
+[hr /]
+
+    As we can see from the graphs above, one thing that we noticed is that less and less people tend to give the happiness score **above 7**. 
+
+    Most people rated their happiness around 4.5-6.5 and it’s consistent over the years, indicating most people were satisfied with their current lives, but at the same time there might be some factors preventing them from giving the higher happiness scores. We also notice a trend that scores **ranging from 4.5-6.5** have grown in 2019-2021.
+
+    After looking at the world score distribution, there are some questions that we might want to ask: what are some factors that could possibly affect the happiness score, and by how much?
+[/Step] 
 [/Scroller]
 
 
 [Scroller]
-### World Score Distribution
-We first want to look into the world score distribution over the years.
+[FullWidth]
+### 6 Features
 
-As we can see from the graphs above, one thing that we noticed is that less and
-less people tend to give the happiness score above 7. We would like to look into
- what factors might affect the overall score in the following section. Based on
- the fit curves, we can see that not much of the skewness was presented in the
- graphs. Most people rated their happiness around 4.5-6.5 and it’s consistent
- over the years, indicating most people were satisfied with their current lives,
- but at the same time there might be some factors preventing them from giving
- the higher happiness scores. We also notice a trend that scores ranging from
- 4.5-6.5 have grown in 2019-2021.
+There are six key variables used in the happiness report dataset to explain differences in average life evaluations. 
 
+* **GDP per capita** - a measure of a country’s economic output that accounts for its number of people
 
-After looking at the world score distribution, there are some questions that we
-might want to ask: what are some factors that could possibly affect the
-happiness score, and by how much?
+* **Healthy Life Expectancy** - Healthy life expectancies at birth based on the data extracted from the World Health Organization (WHO) data repository
+
+* **Social support** - Defined as having someone to count on in times of trouble (ranked from 0 to 1)
+
+* **Freedom to make life choices** - Defined as the national average of responses to the Gall-WorldPoll question (“Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”)
+
+* **Generosity** - National average of responses to the question - “Have you donated money to a charity in the past month?”
+
+* **Perception of corruption** - National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not” )
+[/FullWidth]
 [/Scroller]
 
+
+
 [Scroller]
-### Different Factors vs. Scores & Correlation Heat Map
+### Different Factors vs. Scores 
 We looked into some important factors, which are generosity, health, GDP,
 freedom to make the choice, and perceptions of corruption. We want to know how
 these affect the happiness score, and which factors have the strongest
@@ -82,6 +87,25 @@ correlation with happiness score.
 Now we look into the different regions and show the difference of happiness
 score through the map.
 [/Scroller]
+
+
+
+
+[Scroller]
+[Step]
+    ### Correlation Heatmaps
+[hr /]
+[var name:"myVar" value:2015 /]
+
+[Range value:myVar min:2015 max:2021 step:1/]
+[Display value: myVar /]
+[Graphic]
+    [img src:`"static/images/heatmap/" + myVar + "_Corr.jpg"` /]
+[/Graphic]
+[hr /]
+[/Step]
+[/Scroller]
+
 
 [Scroller]
 ### Interactive World Map
