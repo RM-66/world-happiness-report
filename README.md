@@ -6,7 +6,10 @@ Cherry Pan, Hongying Wu, Ruimin Zhang, Robert Zheng
 
 ### Contribution Statements
 
-Everyone contributes to this proposal.
+Cherry Pan creates the line plots for six factors, and writes the most paragraphs in the Report;
+Hongying Wu creates the interactive world map, and edits the github pages;
+Ruimin Zhang uses a machine learning model to predict the potential happiness score of different countries for 2022, and creates a heatmap by comparing the influence of six factors;
+Robert Zheng calculates monotonic score for all countries, and filters out monotonic incresing countries.
 
 ## Project Proposal Abstract
 
@@ -14,61 +17,9 @@ We are hoping to find out what makes people happy and the happiness level among 
 
 ## Getting Started
 
-**1. Features Analyzed:**
-* GDP per capita - a measure of a country’s economic output that accounts for its number of people.
-* Healthy Life Expectancy - Healthy life expectancies at birth based on the data extracted from the World Health Organisation (WHO) data repository
-* Social support - Defined as having someone to count on in times of trouble (ranked from 0 to 1)
-* Freedom to make life choices - Defined as the national average of responses to the Gall-WorldPoll question (“Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”)
-* Generosity - National average of responses to the question - “Have you donated money to a charity in the past month?”
-* Perception of corruption - National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not” )
+This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative.
 
-**2. Visualizations based on different factors**
-* correlation heatmap
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/correlation%20heatmap.png)
-The correlation between six variables and happiness scores. We spot that GDPper capita, social support, and healthy life expectancy have stronger impacts over our scores than other variables. 
-
-* five factors: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/A%20broad%20look%20of%20how%20score%20is%20related%20to%20these%20five%20factors%20.png)
-A general look of the trend lines between score and different factors.
-
-* score distribution: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20distribution.png)
-How happiness scores are distributed. 
-
-* score vs GDP: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20GDP.png)
-This is the graph showing the relationship between Score and GDP. The slope is around 0.3. As we can see in the graph, most of the data points are around the trendline, meaning the variance is relatively small, and most of the country follow the trend that the the higher scores has a higher GDP per capita.
-
-* score vs corruption: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20corruption.jpg)
-Weak correlation.
-
-* score vs social support: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20social%20support.png)
-This graph shows the relationship between Score and social support. The slope is around 0.2. The variance is relatively small. This graph shows that the higher score is, the better the social support rate will be. Most of the data points are clustered around the score of 4 to 7.5, and the social support of 1.0 to 1.6, indicating the score in between 4-7.5 are likely to have the social support rate of 1.0-1.6
-
-* score vs life expectancy: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20life%20expectancy.jpg)
-Strong correlation between score and life expectancy. In general, countries with higher scores have a higher life expectancy than countries with lower scores.
-
-* score vs freedom to make choices:![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20vs%20freedom%20to%20make%20life%20choice.png)
-Somewhat strong correlation between score and freedom with many outliers.
-The relationship between score and freedom to make life choices has a positive relationship. However, the variance is large since we can see there are some data points floating around. Based on this graph, we can conclude that the freedom to make life choices is higher when the score of happiness is higher. Some country do not fall into this conclusion, but this could be caused by the missing values or the underrepresentative data.
-
-**3. Visualizations based on geographics**
-* score map: 
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/score%20map.png)
-This is the map that shows how the scores different from each other for all the countries. The darker blue indicates a higher happiness score. We can see that North America, South America, Australia, and some parts of Europe have very high happiness scores. Some east Asia countries and some Africa counrties have relatively low happiness scores.
-
-* Top 10 rank countries map:
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/Top%2010%20countries.png)
-A map of top 10 countries with highest score, we can find most toppest score countries are in Europe. 
-
-* Map decribes countries included:
-![alt text](https://github.com/cse412-21sp/world-happiness-report/blob/main/static/images/Map.jpg)
-A plot that shows countries included in the dataset, missing countries:
-Cuba, Guyana, Suriname, French Guiana, Greenland, Western Sahara, Guinea-Bissau, Angola, Sudan, Oman, North Korea, East Timor, Papua New Guinea, Solomon Islands, New Caledonia, Fiji
-
+Think about how the narrative structure draws readers into the story you are telling and how the visualizations interact with the text (and with each other). The narrative should help ensure that the page as a whole is greater than just the sum of it's parts. When designing your page, decide on particular layouts that enhance the reader's experience and understanding of the topic.
 
 ### Required Software
 
