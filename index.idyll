@@ -5,8 +5,8 @@
   title:"World Happiness Report Analysis"
   author:"Ruimin Zhang, Hongying Wu, Robert Zheng, Tianyu Pan"
   authorLink:"https://courses.cs.washington.edu/courses/cse412/21sp/fp.html"
-  date:"Jun 8, 2021"
-  background:"#222222"
+  date:"Jun 7, 2021"
+  background:"#FFB6C1"
   color:"#ffffff"
   theme:"centered"
    /]
@@ -88,7 +88,7 @@ However, take Russia as an example, even though the overall score did not change
  increase of the happiness score in all countries.
 
 
-### Interactive World Map
+## Interactive World Map
 
 Below is an interactive plot that describes the happiness score in each country
 from 2015 to 2021
@@ -103,53 +103,46 @@ However, take Russia as an example, even though the overall score did not change
 2015 to 76 in 2021. Therefore, we can conclude that it is not always a monotonic
  increase of the happiness score in all countries.
 
+[FullWidth]
+[div style:`{width: '100%', paddingLeft: "15vw", paddingRight:"15vw"}`]
+[TableauEmbed link:"https://public.tableau.com/views/interactivemapoveryears/interactivemap?:language=en-US&:display_count=n&:origin=viz_share_link" width:"1000" height:"850"/]
+[/div]
+[/FullWidth]
 
-[Range value:myVar min:2015 max:2021 step:1/]
-[Display value: myVar /]
-[Graphic]
-    [img src:`"static/images/togo/" + myVar + ".png"` /]
-[/Graphic]
-One country that attracts our attention is Togo, Africa. Togo has a significant increaseing in the happiness score. In 2015, it ranked the last among 158 countries, and had a score of 2.839; in 2016, the rank moved up a bit and it ranked 155 with 3.303 score; in 2017, it has 3.495 with a rank of 150; in 2018, it kept increasing to 3.999 with a rank of 139; the score kept increasing to 4.187 in 2020, and then followed by a slight decrease in 2021 due to Covid-19. The trend of happiness scores in Togo from 2015 to 2020 demonstrates a general pattern of the increasing happiness scores in most countries.
-
-
-
-
-After learning about all these insights, have you ever wondered if any countries have monotonic increasing scores? We will look into it next.
+ One country that attracts our attention is Togo, Africa. Togo has a significant increaseing in the happiness score. In 2015, it ranked the last among 158 countries, and had a score of 2.839; in 2016, the rank moved up a bit and it ranked 155 with 3.303 score; in 2017, it has 3.495 with a rank of 150; in 2018, it kept increasing to 3.999 with a rank of 139; the score kept increasing to 4.187 in 2020, and then followed by a slight decrease in 2021 due to Covid-19. The trend of happiness scores in Togo from 2015 to 2020 demonstrates a general pattern of the increasing happiness scores in most countries.
+ ![example](./static/images/togo.png)
 
 
-[/Scroller]
+ After learning about all these insights, have you ever wondered if any countries have monotonic increasing scores? We will look into it next.
 
-[Scroller]
-### Countries with monotonic score increase
 
-We obtained the world happiness report from 2015 to 2020. To better compare all countries’ scores, we first filtered the unnecessary columns and merged all data frames by intersection. After a short investigation, we found that the data set each year might contain different countries, and some countries might not exist on the data set in the next year. For example, Oman, Laos, Syria appeared in the 2015 report but not in the 2016 report. After intersecting all data frames, we have countries with consistent score records. To obtain the ones with monotonic score increase, we looped through all the columns containing scores and checked if the entries in the previous column were less than or equal to the entries in the current column. The result is the following table:
+## Countries with monotonic score increase
 
-[var name:"myVal"/]
-[Graphic]
-    [img src:`"static/images/MonotonicCountry/" + myVal + ".png"` /]
-[/Graphic]
+[TableauEmbed link:"https://public.tableau.com/views/monotone/CountrieswithMonotonicScoreIncrease?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+We obtained the world happiness report from 2015 to 2020. To better compare all countries’ scores, we first filtered the unnecessary columns and merged all data frames by intersection. At the end of this merging process, we obtained the following:
+![example](./static/images/MonotonicCountry.png)
 
+After a short investigation, we found that the data set each year might contain different countries, and some countries might not exist on the data set in the next year. For example, Oman, Laos, Syria appeared in the 2015 report but not in the 2016 report. After intersecting all data frames, we have countries with consistent score records. To obtain the ones with monotonic score increase, we looped through all the columns containing scores and checked if the entries in the previous column were less than or equal to the entries in the current column. The result is the following table:
 
 These countries shown in the table have the monotonic increasing score over the years.
 
 
 
-### ML Prediction for 2022
+## ML Prediction for 2022
 
 We are curious about what the happiness score looks like in 2022, thus we decided to use the ML model to predict the possible outcome of 2022. We used the MLPRegressor model in sklearn to predict the potential happiness scores for 2022, and the data from 2015 to 2021 served as the training data. Some of the predicted scores are presented in the table above, and the accuracy rate is about 84.9%.
 
 
-### Conclusion
+[br/]
+## Conclusion
 
 To sum up, We found out that fewer and fewer people tend to give scores that are higher than 7, and there’s a trend of growth between scores 4.5 to 6.5 from 2019 to 2021. When we looked into the factors that might affect the scores, we revealed that GDP per capita, social support, and healthy life expectancy have very strong impacts on happiness scores. Many countries have been doing a great job of having a monotonic increasing happiness score, and several countries in Africa had made progress in happiness over the past 5 years. If we look into regions worldwide, countries in Europe, America, and Australia reveal higher average happiness scores, which could be well explained by the discoveries we found from the dataset. In the end, we used the ML prediction to estimate the happiness outcome of 2022, and it has an accuracy rate of 84.9% if 2022 follows the trends of the previous year.
 
 Hope you have learned some interesting facts after reading this report. Thanks for reading! :)
 
-
-[/Scroller]
-
+[br/]
 # Data Sources
 
 [World Happiness Dataset: 2015-2020](https://www.kaggle.com/mathurinache/world-happiness-report)
-[br /]
+[br/]
 [World Happiness Dataset: 2021](https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021)
