@@ -125,6 +125,9 @@ However, take Russia as an example, even though the overall score did not change
 2015 to 76 in 2021. Therefore, we can conclude that it is not always a monotonic
  increase of the happiness score in all countries.
 
+[Graphic]
+    [img src:`"static/images/togo/" + selectVal + ".png"` /]
+[/Graphic]
 One country that attracts our attention is Togo, Africa. Togo has a significant increaseing in the happiness score. In 2015, it ranked the last among 158 countries, and had a score of 2.839; in 2016, the rank moved up a bit and it ranked 155 with 3.303 score; in 2017, it has 3.495 with a rank of 150; in 2018, it kept increasing to 3.999 with a rank of 139; the score kept increasing to 4.187 in 2020, and then followed by a slight decrease in 2021 due to Covid-19. The trend of happiness scores in Togo from 2015 to 2020 demonstrates a general pattern of the increasing happiness scores in most countries.
 
 
