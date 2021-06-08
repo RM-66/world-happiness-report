@@ -60,6 +60,41 @@ There are six key variables used in the happiness report dataset to explain diff
 
 [br/]
 ## Correlation
+2015：
+[TableauEmbed link:"https://public.tableau.com/views/2015_1_16231227993660/Factorsin2015?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2015_2_16231228159520/Factorsin2015Cont_?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
+2016：
+[TableauEmbed link:"https://public.tableau.com/views/2016_1/Factorsin2016?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2016_2_16231233083160/Factorsin2016Cont_?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
+2017：
+[TableauEmbed link:"https://public.tableau.com/views/2017_1_16231241666260/Factorsin2017?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2017_2_16231241859040/Factorsin2017Cont_?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
+2018：
+[TableauEmbed link:"https://public.tableau.com/views/2018_1_16231251860550/Factorsin2018?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2018_2_16231252111960/Factorsin2018Cont_?:language=en-US&:retry=yes&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
+2019：
+[TableauEmbed link:"https://public.tableau.com/views/2019_1_16231256555110/Factorsin2019?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2019_2_16231257038360/Factorsin2019Cont_?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
+2020：
+[TableauEmbed link:"https://public.tableau.com/views/2020_1_16231264220980/Factorsin2020?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2020_2_16231264413790/Factorsin2020Cont_?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
+2021：
+[TableauEmbed link:"https://public.tableau.com/views/2021_1_16231281012550/Factorsin2021?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+[TableauEmbed link:"https://public.tableau.com/views/2021_2/Factorsin2021Cont_?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"300"/]
+
+
 We looked into some important factors, which are logged Economy (GDP per Capita), Family (Social Support), logged Health (Life Expectancy), Freedom to make life choices, Generosity, and Trust (Perception of Corruption). We want to know how these affect the happiness score, and which factors have the strongest correlation among all. We made the scatter plots to show the relationship between these different factors and happiness. From the graphs we got, we can see that nearly all of them (except those in 2021 because of reasons we will explain later in this paragraph) have positive linear correlations, meaning if any of these factors has a higher rating, it will have a greater positive impact on the happiness score. We then look closer and see that the GDP has the least variation and outlier, indicating it’s consistent that the people who live in the higher GDP country usually have a high happiness score. On the other hand, generosity is the least correlated with happiness score, which means a country with a higher happiness score is not necessarily more generous than others. Just by looking at the graph, we consider the GDP and health has the largest correlation with happiness score. Because of different data processing methods used by the publisher in 2021, we have a data set with different scaling methods. For example, the trust indicator is (1 - trust) in previous years; and the logged GDP and life expectancy were squeezed toward 1 for unknown reasons. We then plot the heat map to confirm.
 
 
