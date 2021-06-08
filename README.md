@@ -7,8 +7,11 @@ Cherry Pan, Hongying Wu, Ruimin Zhang, Robert Zheng
 ### Contribution Statements
 
 Cherry Pan creates the line plots for six factors, and writes the most paragraphs in the Report;
+
 Hongying Wu creates the interactive world map, and edits the github pages;
+
 Ruimin Zhang uses a machine learning model to predict the potential happiness score of different countries for 2022, and creates a heatmap by comparing the influence of six factors;
+
 Robert Zheng calculates monotonic score for all countries, and filters out monotonic incresing countries.
 
 ## Project Proposal Abstract
