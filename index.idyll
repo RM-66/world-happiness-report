@@ -58,6 +58,10 @@ There are six key variables used in the happiness report dataset to explain diff
 * **Perception of corruption** - National average of responses to the questions (“Is corruption widespread throughout the government or not” and “Is corruption widespread within businesses or not” )
 
 
+[br/]
+## Correlation
+We looked into some important factors, which are logged Economy (GDP per Capita), Family (Social Support), logged Health (Life Expectancy), Freedom to make life choices, Generosity, and Trust (Perception of Corruption). We want to know how these affect the happiness score, and which factors have the strongest correlation among all. We made the scatter plots to show the relationship between these different factors and happiness. From the graphs we got, we can see that nearly all of them (except those in 2021 because of reasons we will explain later in this paragraph) have positive linear correlations, meaning if any of these factors has a higher rating, it will have a greater positive impact on the happiness score. We then look closer and see that the GDP has the least variation and outlier, indicating it’s consistent that the people who live in the higher GDP country usually have a high happiness score. On the other hand, generosity is the least correlated with happiness score, which means a country with a higher happiness score is not necessarily more generous than others. Just by looking at the graph, we consider the GDP and health has the largest correlation with happiness score. Because of different data processing methods used by the publisher in 2021, we have a data set with different scaling methods. For example, the trust indicator is (1 - trust) in previous years; and the logged GDP and life expectancy were squeezed toward 1 for unknown reasons. We then plot the heat map to confirm.
+
 
 
 [br/]
@@ -74,20 +78,11 @@ There are six key variables used in the happiness report dataset to explain diff
 [/Graphic]
 
 [hr /]
-Above are interactive plots that describe the happiness score in each country
-from 2015 to 2021.
+This is the heat map of all the correlations for each year, respectively. You can manually choose the year from the upper left corner. The darker the red is, the stronger the correlation will be. Blue section indicates the negative correlation. From the Heat map here, we can see that GDP, social support, and Heath indeed have the strongest correlations with happiness score. 
 
-In this interactive plot, we use a color scale to differentiate the happiness
-score rated from 1 to 10. Even though most scores are between 2 to 8, we try to
-include some very extreme scores to avoid the ignorance of any country’s
-records. Based on the graph, we can see the countries in Africa have more
-changes than other continents, and countries like China have barely changed.
-However, take Russia as an example, even though the overall score did not change
- so much, the overall rank of Russia decreased through these years, from 64 in
-2015 to 76 in 2021. Therefore, we can conclude that it is not always a monotonic
- increase of the happiness score in all countries.
 
-We looked into some important factors, which are logged Economy (GDP per Capita), Family (Social Support), logged Health (Life Expectancy), Freedom to make life choices, Generosity, and Trust (Perception of Corruption). We want to know how these affect the happiness score, and which factors have the strongest correlation among all. We made the scatter plots to show the relationship between these different factors and happiness. From the graphs we got, we can see that nearly all of them (except those in 2021 because of reasons we will explain later in this paragraph) have positive linear correlations, meaning if any of these factors has a higher rating, it will have a greater positive impact on the happiness score. We then look closer and see that the GDP has the least variation and outlier, indicating it’s consistent that the people who live in the higher GDP country usually have a high happiness score. On the other hand, generosity is the least correlated with happiness score, which means a country with a higher happiness score is not necessarily more generous than others. Just by looking at the graph, we consider the GDP and health has the largest correlation with happiness score. Because of different data processing methods used by the publisher in 2021, we have a data set with different scaling methods. For example, the trust indicator is (1 - trust) in previous years; and the logged GDP and life expectancy were squeezed toward 1 for unknown reasons. We then plot the heat map to confirm.
+Now we look into the different regions and show the differences of happiness scores through the map.
+
 
 ### Interactive World Map
 
