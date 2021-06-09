@@ -1,9 +1,176 @@
-.d3-component svg {
-  background: #ddd;
-  max-height: 300px;
+.article-header{  
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.vg-tooltip table {
-  margin-bottom: 0px;
+
+.content{  
+  padding-top: 30px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+.annotated-text{  
+  text-indent: 0px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  padding-top: 0px;
+  text-indent: 0px;
+  font-size: xx-large;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-indent: px;
+  font-size: x-large;
+}
+
+.idyll-text-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.fullwidth {
+  width: 1300px;
+  margin: 0 0 0 -100px;
+}
+
+.intro {
+  padding-top: 30px;
+  margin-top: 0px;
+  background-color: white;  
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+.obs{
+  padding-top: 30px;
+  margin-top: 0px;
+  background-color: lightpink;  
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+.Correlation{
+  padding-top: 30px;
+  margin-top: 0px;
+  background-color: white;  
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+.interactive{
+  padding-top: 30px;
+  margin-top: 0px;
+  background-color: lightpink;  
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+.ml{
+  padding-top: 30px;
+  margin-top: 0px;
+  background-color: white;  
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+.Conclusion{
+  padding-top: 10px;
+  margin-top: 0px;
+  background-color: lightpink;  
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-indent: 0px;
+}
+
+
+.source{
+  padding-top: 10px;
+  margin-top: 0px;
+  background-color: white;  
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 1%;
+  line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-indent: 0px;
+}
+
+
+
+.menu{
+  font-size: 15px;
+  font-family: Sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  /*border: 1px black;*/
+  position: fixed;
+  
+  top: 5%;  /* 0px from the top */
+  right: 0; /* 0px from the left */
+  /* width: 100%; same as parent, useful for spanning the page */
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: 1%;
+  text-align: right;
+}
+
+a:link {
+  color: HotPink;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: pink;
 }
 
 @media all and (max-width: 1000px) {
@@ -25,6 +192,7 @@
 #idyll-scroll-1 > .idyll-scroll-graphic {
   background: #33333f;
 }
+
 @media only screen and (max-width: 600px) {
   .idyll-scroll .idyll-text-container {
     max-width: 57vw;
@@ -37,4 +205,3 @@
     width: 31vw;
     margin-left: 65vw;
   }
-}
