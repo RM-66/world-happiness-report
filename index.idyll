@@ -26,9 +26,12 @@
 
 Why is happiness important? Why should we care about happiness scores in this fast-paced world? What might be some key indicator of happiness? What makes us happy as an individual? How does Covid-19 affect the happiness score?
 
-Indeed, these questions are difficult to answer. Happiness is a subjective measure and can be hard to categorize. But undoubtedly, these questions serve as the baseline for other areas such as mental health and national growth, and are crucial to everyone’s daily life. First, we want to understand why happiness is important and why we should care about it. According to the resolution adopted by the UN General Assembly in 2011 titled “Happiness: towards a holistic approach to development”, the resolution states that “the pursuit of happiness is a fundamental human goal”; moreover, happiness is “a universal goal and aspiration embodies the spirit of Millennium Development Goal''. Many studies indicate that happiness not only relates to how we feel, but also “links to better decision-making and improved creativity”. Scientists point out that happiness could be the key to success.
+Indeed, these questions are difficult to answer. Happiness is a subjective measure and can be hard to categorize. But undoubtedly, these questions serve as the baseline for other areas such as mental health and national growth, and are crucial to everyone’s daily life. First, we want to understand why happiness is important and why we should care about it. According to the resolution adopted by the UN General Assembly in 2011 titled “Happiness: towards a holistic approach to development”, the resolution states that “the pursuit of happiness is a fundamental human goal”; moreover, happiness is “a universal goal and aspiration embodies the spirit of Millennium Development Goal''. Moreover, many studies indicate that happiness not only relates to how we feel, but also “links to better decision-making and improved creativity”, and could be the key to success. 
 
-After learning the importance of happiness, now let’s delve into our project. In this project, we aim to find out how the happiness score varies across different countries over years and how the happiness score is affected by some important factors such as GDP per capita and healthy life expectancy. We used the World Happiness Report datasets to research the happiness level across countries and time. We used the ‘score’ index to observe how different factors are linearly related to the ‘score’.
+After learning the importance of happiness, now let’s look at this project. In this project, we aim to find out how the happiness score varies across different countries over the years and how the happiness score is affected by some important factors such as GDP per capita and healthy life expectancy. Then we look into the worldwide distribution of the happiness scores and the trends, trying to find out the secrets behind happiness. We used the World Happiness Report datasets to research the happiness level all over the world from 2015 to 2021. At the end of this report, we used the given data to perform a prediction of happiness level for 2022. 
+
+Now, let’s delve into the report...
+
   [/div]
 
 
@@ -38,6 +41,7 @@ After learning the importance of happiness, now let’s delve into our project. 
 # Observations
 ## Score Distribution
 
+We first want to look into the world score distributions over the years.
 
   [var name:"selectVal" value:"2015" /]
   [Select value:selectVal options:`["2015", "2016", "2017", "2018", "2019","2020","2021"]`  /]
@@ -46,11 +50,12 @@ After learning the importance of happiness, now let’s delve into our project. 
   [/Graphic]
 
 
-    As we can see from the graphs above, one thing that we noticed is that less and less people tend to give the happiness score **above 7**.
+    In this graph, you can select the “year” in the upper left corner to check out the world score distribution for different years. Based on the fit curves, most people rated their happiness score around 4.5-6.5 and it has been consistent over the years, indicating most people were satisfied with their current lives but at the same time there might be some factors preventing them from giving the higher happiness scores.
+    
+Another thing that’s worth notice is that there are less and less people who tend to give the happiness score above 7, and a trend of growth between 4.5 to 6.5 from 2019 to 2021. People seem to have higher expectations or standards for being happy, and become more strict about what could make them happy.
 
-    Most people rated their happiness around 4.5-6.5 and it’s consistent over the years, indicating most people were satisfied with their current lives, but at the same time there might be some factors preventing them from giving the higher happiness scores. We also notice a trend that scores **ranging from 4.5-6.5** have grown in 2019-2021.
+After looking at the world score distribution, there are some questions that you might want to ask: what are some factors that could possibly affect the happiness score, and by how much? In the next section, we would like to look into different factors and how these factors might affect the overall score. 
 
-    After looking at the world score distribution, there are some questions that we might want to ask: what are some factors that could possibly affect the happiness score, and by how much?
 
 ## 6 Features
 
@@ -105,7 +110,6 @@ We looked into some important factors, which are logged Economy (GDP per Capita)
     ## Correlation Heatmaps
 
 
-
   [var name:"x" value:2015 /]
 
 
@@ -121,6 +125,8 @@ This is the heat map of all the correlations for each year, respectively. You ca
 [br/]
 
 Now we look into the different regions and show the differences of happiness scores through the map.
+
+
 [/div]
 
 
