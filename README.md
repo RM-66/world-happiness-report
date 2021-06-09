@@ -32,5 +32,5 @@ The webpage is created with Idyll, which is a markup language for creating beaut
 
 
 ### Reference
-[https://www.kaggle.com/mathurinache/world-happiness-report?select=2020.csv](2015-2020 Dataset).
-[https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021](2021 Data).
+[https://www.kaggle.com/mathurinache/world-happiness-report?select=2020.csv] (2015-2020 Dataset).
+[https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021] (2021 Data).
