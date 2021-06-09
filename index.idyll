@@ -39,10 +39,10 @@ After learning the importance of happiness, now let’s delve into our project. 
 ## Score Distribution
 
 
-  [var name:"selectVal" text:"2015" /]
-  [Select text:selectText options:`["2015", "2016", "2017", "2018", "2019","2020","2021"]`  /]
+  [var name:"selectVal" value:"2015" /]
+  [Select value:selectVal options:`["2015", "2016", "2017", "2018", "2019","2020","2021"]`  /]
   [Graphic]
-    [img src:`"static/images/score_distribution/" + selectText + ".jpg"` /]
+    [img src:`"static/images/score_distribution/" + selectVal + ".jpg"` /]
   [/Graphic]
 
 
